@@ -5,17 +5,17 @@ A simple C++ GUI application template using the wxWidgets framework.
 ## Project Structure
 
 ```text
-├── CMakeLists.txt              # Main CMake configuration
-├── install_dependencies.sh     # Ubuntu/Debian dependency installer
+├── CMakeLists.txt                  # Main CMake configuration
 ├── scripts/
-│   ├── build.sh               # Build script
-│   ├── run.sh                 # Run application script
-│   └── clean.sh               # Clean build artifacts
+│   ├── build.sh                    # Build script
+│   ├── run.sh                      # Run application script
+│   ├── clean.sh                    # Clean build artifacts
+│   └── install_dependencies.sh     # Ubuntu/Debian dependency installer
 └── src/
-    ├── main.cpp               # Application entry point
-    ├── mainFrame.cpp          # Main window implementation
-    ├── mainFrame.hpp          # Main window header
-    └── SourceFiles.cmake      # Source files configuration
+    ├── main.cpp                    # Application entry point
+    ├── mainFrame.cpp               # Main window implementation
+    ├── mainFrame.hpp               # Main window header
+    └── SourceFiles.cmake           # Source files configuration
 ```
 
 ## Prerequisites
@@ -25,8 +25,8 @@ A simple C++ GUI application template using the wxWidgets framework.
 Run the provided dependency installation script:
 
 ```bash
-chmod +x install_dependencies.sh
-./install_dependencies.sh
+chmod +x scripts/install_dependencies.sh
+./scripts/install_dependencies.sh
 ```
 
 ### Manual Installation
